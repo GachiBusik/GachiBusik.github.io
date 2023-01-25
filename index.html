@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>we make style</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="time.js"></script>
+    <script>
+        setInterval(displayTime, 1000);
+      </script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <button class="header-button">
+                  <img src="/img/svg/menu.svg" alt="" class="header-button-icon"> 
+            </button>
+          <h1 class="header-title">we make style</h1>
+          <div class="header-contact">
+            <p>Phone: +8-900-000-00-00</p>
+            <p>Email: Style@gmail.com</p>
+          </div>
+        </div>
+      </header>
+      <div class="time-container">
+        <p>Current Time: <span id="clock"></span></p>
+      </div>
+
+      
+
+    <script src="/libs/jquery-3.6.3.min.js"></script>
+    <script>
+
+        jQuery(document).ready(function(){
+            jQuery(".t-shirt-button").click(function(){
+                jQuery("#images1").show();
+                jQuery("#images2").hide();
+                jQuery("#images3").hide();
+            });
+        });
+        </script>
+
+    <script>
+
+        jQuery(document).ready(function(){
+            jQuery(".short-button").click(function(){
+                jQuery("#images1").hide();
+                jQuery("#images2").show();
+                jQuery("#images3").hide();
+             });
+        });
+    </script>
+
+        <script>
+
+        jQuery(document).ready(function(){
+            jQuery(".foot-button").click(function(){
+                jQuery("#images1").hide();
+                jQuery("#images2").hide();
+                jQuery("#images3").show();
+            });
+        });
+        </script>
+
+    <script>
+
+        jQuery(document).ready(function(){
+            jQuery(".header-button").click(function(){
+                jQuery("#images1").hide();
+                jQuery("#images2").hide();
+                jQuery("#images3").hide();
+            });
+        });
+    </script>
+
+        <main class = "main">
+                <section class ="intro">
+                    <div class="buttons-container" style="display: flex; flex-direction: column;">
+                        <button class="t-shirt-button">
+                            <img src="/img/svg/t-shirt.svg" alt="" class="t-shirt-button-icon"> 
+                        </button>
+                        <button class="short-button">
+                            <img src="/img/svg/short.svg" alt="" class="short-button-icon"> 
+                        </button>
+                        <button class="foot-button">
+                            <img src="/img/svg/foot.svg" alt="" class="foot-button-icon"> 
+                        </button>
+                    </div>
+                
+                    <div class="images1" id="images1" style="display: none;">
+                        <button class="t-shirt_1-button">
+                            <img src="/img/svg/1.svg" alt="" class="t-shirt-button_1-icon">
+                        </button>
+                        <button class="t-shirt_2-button">
+                            <img src="/img/svg/2.svg" alt="" class="t-shirt-button_2-icon">
+                        </button>
+                        <button class="t-shirt_3-button">
+                            <img src="/img/svg/3.svg" alt="" class="t-shirt-button_3-icon">
+                        </button>
+                    </div>
+                
+                    <div class="images2" id="images2" style="display: none;">
+                        <button class="short_4-button">
+                            <img src="/img/svg/4.svg" alt="" class="short-button_1-icon">
+                        </button>
+                        <button class="short_5-button">
+                            <img src="/img/svg/5.svg" alt="" class="short-button_2-icon">
+                        </button>
+                        <button class="short_6-button">
+                            <img src="/img/svg/6.svg" alt="" class="short-button_3-icon">
+                        </button>
+                    </div>
+                
+                    <div class="images3" id="images3" style="display: none;">
+                        <button class="foot_7-button">
+                            <img src="/img/svg/7.svg" alt="" class="foot-button_1-icon">
+                        </button>
+                        <button class="foot_8-button">
+                            <img src="/img/svg/8.svg" alt="" class="foot-button_2-icon">
+                        </button>
+                        <button class="foot_9-button">
+                            <img src="/img/svg/9.svg" alt="" class="foot-button_3-icon">
+                        </button>
+                    </div>
+        </main>
+</body>
+</html>
